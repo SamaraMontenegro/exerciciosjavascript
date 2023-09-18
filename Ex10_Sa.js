@@ -59,8 +59,8 @@ function sacar(conta, valor) {
     return "Conta não encontrada";
 }
 
-//const resultado = sacar(2, 20);
-//console.log(resultado);
+const resultado = sacar(2, 20);
+console.log(resultado);
 
 //Implemente uma função comprar que deve adicionar o valor da compra na array compras do respectivo correntista.
 

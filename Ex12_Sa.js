@@ -18,8 +18,8 @@ const nomeCliente = "";
 const emailCliente = "samara@email.com";
 const cpfCliente = "123.456.789-00";
 
-//const resultado = cadastroClientes(nomeCliente, emailCliente, cpfCliente);
-//console.log(resultado);
+const resultado = cadastroClientes(nomeCliente, emailCliente, cpfCliente);
+console.log(resultado);
 
 /*b) - Sua função deve utilizar outra função de validação de email (procure na internet função pronta de validação de email e 
 utilize-a) e caso o parâmetro de email não seja válido, a mensagem “E-mail inválido” deve ser exibida;*/
@@ -33,8 +33,8 @@ function validarEmail(email) {
         return 'E-mail inválido';
     }
 }
-//resultado = validarEmail ("samaragmail.com");
-//console.log(resultado);
+resultado = validarEmail ("samaragmail.com");
+console.log(resultado);
 
 /*c) - Além da validação do e-mail, o parâmetro do CPF deve ser validado (procure na internet uma função pronta para validar 
 CPF e utilize-a) também, caso o argumento passado como CPF não seja válido, a mensagem “CPF inválido deve ser exibida”;*/
