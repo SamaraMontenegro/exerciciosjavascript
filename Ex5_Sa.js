@@ -21,5 +21,5 @@ function custoSacola() {
 }
 
 const resultado = custoSacola(); 
-console.log(resultado.custoDimitri); //colocando o valor de cada compra na sacola
+console.log(resultado.custoDimitri);
 console.log(resultado.custoMonique);

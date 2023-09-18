@@ -59,8 +59,8 @@ function TestaCPF(strCPF) {
     if (Resto != parseInt(strCPF.substring(10, 11) ) ) return 'CPF inválido';
     return true;
 }
-var strCPF = "09012741432";
-console.log(TestaCPF(strCPF));
+//var strCPF = "09012741432";
+//console.log(TestaCPF(strCPF));
 
 /*d) - Não deve ser permitido o cadastro em duplicidade de email e cpf, logo, verifique se o email e cpf já não estão cadastrados.*/
 

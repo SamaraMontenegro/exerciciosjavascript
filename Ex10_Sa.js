@@ -86,7 +86,6 @@ function comprarCartaoCredito(conta, valor) {
     return "Conta não encontrada";
 }
 
-// Exemplo de uso:
 const resultado = comprarCartaoCredito(1, 10);
 console.log(resultado);
 
